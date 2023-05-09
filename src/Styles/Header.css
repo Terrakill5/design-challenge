@@ -1,0 +1,53 @@
+/* Header */
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: rgba(48, 49, 65, 255);
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(73, 91, 125, 255);
+  }
+  
+  .sign-in {
+    background-color: rgba(57, 226, 157, 255);
+    color: rgba(48, 49, 65, 255);
+  }
+  
+  .chickgold-header {
+    margin: 0px 0px;
+    display: flex;
+  
+    place-items: center;
+  }
+  
+  .chickgold-img {
+    position: relative;
+  }
+  
+  .chickgold-div-img {
+    padding: 0 30px;
+    border-right: 1px solid white;
+  }
+  
+  .sign-in-header {
+    display: flex;
+    place-items: center;
+    margin-right: 35px;
+  }
+  
+  .dropdown-start {
+    border-left: 1px solid white;
+  }
+  
+  .dropdown {
+    color: white;
+    font-weight: 600;
+    margin: -10px 26px;
+  }
+  
+  .cart {
+    font-weight: 600;
+    color: white;
+    margin: 0 20px;
+  }
+  
