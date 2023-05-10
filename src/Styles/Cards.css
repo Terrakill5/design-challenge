@@ -133,7 +133,7 @@
   }
   
   .custom-card-body-title {
-    display: flex; 
+    display: flex;  
     justify-content: space-between;
   }
   
