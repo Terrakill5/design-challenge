@@ -12,7 +12,7 @@ const Header = () => <header className="header">
     />
   </div>
 
-  <div>
+  <div className="mobile-non">
     <span className="dropdown">
       CURRENCY <span className="icon chevron-down"></span>
     </span>
@@ -33,7 +33,7 @@ const Header = () => <header className="header">
     </span>
   </div>
 </div>
-<div className="sign-in-header">
+<div className="sign-in-header mobile-non">
   <div>
     <span className="dropdown">
       USD <span className="icon chevron-down"></span>
@@ -47,6 +47,10 @@ const Header = () => <header className="header">
     Sign In <span className="user"></span>
   </button>
 </div>
+<div className="mobile menu-header">
+    <span className="menu"></span>
+
+  </div>
 </header>;
 
 export default Header;

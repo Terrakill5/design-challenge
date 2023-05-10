@@ -109,48 +109,10 @@
   content: "\f0dc";
 }
 
-/* Media Queries */
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-
-  .col-xs-6 {
-    width: 50%;
-    max-width: 50%;
-  }
+.menu::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0c9";
+  font-size: 2rem;
+  
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-
-  .col-md-4 {
-    width: 33.33%;
-    max-width: 33.33%;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-
-  .col-lg-3 {
-    width: 25%;
-    max-width: 25%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-
-  .col-xl-2 {
-    width: 16.67%;
-    max-width: 16.67%;
-  }
-}

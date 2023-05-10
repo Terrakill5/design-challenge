@@ -69,3 +69,29 @@
     justify-content: center;
   }
   
+  @media (max-width: 400px) {
+    .redes-sociales {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      border-bottom: solid 1px rgba(76, 96, 133, 255);
+    }
+
+   
+
+    .informacion{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin:0;
+      margin: 20px 0;
+
+    }
+
+    .formas-pago-ordenado{
+      padding: 0 0 0 50px;
+      width: 100%;
+    
+    }
+  }

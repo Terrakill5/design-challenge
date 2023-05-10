@@ -51,25 +51,25 @@ const Footer = () => <footer className="footer">
       />
       <p className="subtitulos-footer">support@chicksgold.com</p>
     </div>
-    <div className="informacion-chicks">
+    <div className="informacion-chicks mobile-non">
       <span className="titulo-footer">Chicks Gold</span>
       <p className="subtitulos-footer">Games</p>
       <p className="subtitulos-footer">About Us</p>
       <p className="subtitulos-footer">Blog</p>
       <p className="subtitulos-footer">Sitemap</p>
     </div>
-    <div className="informacion-support">
+    <div className="informacion-support mobile-non">
       <span className="titulo-footer">Support</span>
       <p className="subtitulos-footer">Contact Us</p>
       <p className="subtitulos-footer">FAQ</p>
     </div>
-    <div className="informacion-legal">
+    <div className="informacion-legal mobile-non">
       <span className="titulo-footer">Legal</span>
       <p className="subtitulos-footer">Privacy Policy</p>
       <p className="subtitulos-footer">Terms Of Service</p>
       <p className="subtitulos-footer">Copywrite Policy</p>
     </div>
-    <div className="informacion-trustpilot subtitulos-footer">
+    <div className="informacion-trustpilot subtitulos-footer mobile-non">
       <img
         className="trustpilot-img"
         src="src/resources/star.PNG"

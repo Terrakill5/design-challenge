@@ -22,7 +22,7 @@ const Body = () => (
             <span className="magnifying-glass"></span>
             <span className="search-text">Search</span>
           </div>
-          <div className="search-price">
+          <div className="search-price mobile-non">
             <div className="search-price-title">
               <div>
                 <span className="bag"></span>
@@ -36,7 +36,7 @@ const Body = () => (
               <span className="caret-down"></span>
             </div>
           </div>
-          <div className="search-item">
+          <div className="search-item mobile-non">
             <div className="search-price-title">
               <div>
                 <span className="feather"></span>
@@ -57,7 +57,7 @@ const Body = () => (
           <div>
             <span>Showing 20 - from 125</span>
           </div>
-          <div className="search-item">
+          <div className="search-item mobile-non">
             <div className="search-price-title">
               <div>
                 <span className="slider"></span>
@@ -75,7 +75,7 @@ const Body = () => (
         <div className="container">
           <div className="row">
             {/* Primera tanda */}
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -125,7 +125,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -175,7 +175,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -226,7 +226,7 @@ const Body = () => (
              
             </div>
             {/* Segunda tanda */}
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -276,7 +276,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -326,7 +326,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -377,7 +377,7 @@ const Body = () => (
              
             </div>
             {/* Tercera tanda */}
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -427,7 +427,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -477,7 +477,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -528,7 +528,7 @@ const Body = () => (
              
             </div>
             {/* Cuarta tanda */}
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -578,7 +578,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -628,7 +628,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -679,7 +679,7 @@ const Body = () => (
              
             </div>
             {/* Quinta tanda */}
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -729,7 +729,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -779,7 +779,7 @@ const Body = () => (
               </div>
              
             </div>
-            <div className="col-12 col-xs-6 col-md-4 col-lg-3 col-xl-2">
+            <div className=" flex-center">
               <div className="custom-card">
                 <div className="custom-card-header">
                   <div className="custom-card-header-stock">
@@ -837,9 +837,9 @@ const Body = () => (
             <span className="caret-left"></span>
           </button>
           <button className="button-active">1</button>
-          <button className="button-transparent">2</button>
-          <button className="button-transparent">3</button>
-          <button className="button-transparent">4</button>
+          <button className="button-transparent mobile-non">2</button>
+          <button className="button-transparent mobile-non">3</button>
+          <button className="button-transparent mobile-non">4</button>
           <button className="button-transparent">...</button>
           <button className="button-transparent">11</button>
           <button className="button-move button-transparent">
