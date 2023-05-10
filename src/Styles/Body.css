@@ -128,7 +128,7 @@
     width: 20%;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 400px) {
     .body-container{
       padding: 30px 0;
       height: 4900px;
