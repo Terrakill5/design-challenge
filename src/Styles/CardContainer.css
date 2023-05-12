@@ -57,15 +57,21 @@
 
 /* Media Queries */
 @media (max-width: 400px) {
-  .card-container-header {
-    justify-content: center;
-  }
+  
 
   .row {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 13px;
     grid-row-gap: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container-header {
+    justify-content: center;
+    flex-grow: 0;
+    height: 20px !important;
   }
 }
 

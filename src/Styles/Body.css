@@ -126,11 +126,19 @@
 .seach-item-type {
   width: 20%;
 }
-
 @media (max-width: 400px) {
   .body-container {
-    padding: 30px 0;
     height: 4900px;
+  }
+}
+
+@media (max-width: 600px) {
+  .body-container {
+    padding: 30px 0;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .body-title {
@@ -139,7 +147,9 @@
 
   .body-nav {
     flex-direction: column;
-    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
   }
 
   .select-game {
@@ -152,7 +162,7 @@
   }
 }
 
-@media (max-width: 1280px) and (min-width: 401px) {
+@media (max-width: 1280px) and (min-width: 601px) {
   .body-container {
     
     height: 1500px;
@@ -166,7 +176,7 @@
 
 }
 
-@media (max-width: 1022px) and (min-width: 401px) {
+@media (max-width: 1022px) and (min-width: 601px) {
   .body-container {
     
     height: 1870px;
