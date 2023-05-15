@@ -51,19 +51,19 @@ const Footer = () => <footer className="footer">
       />
       <p className="subtitulos-footer">support@chicksgold.com</p>
     </div>
-    <div className="informacion-chicks mobile-non">
+    <div className="informacion-chicks mobile-non tablet-non">
       <span className="titulo-footer">Chicks Gold</span>
       <p className="subtitulos-footer">Games</p>
       <p className="subtitulos-footer">About Us</p>
       <p className="subtitulos-footer">Blog</p>
       <p className="subtitulos-footer">Sitemap</p>
     </div>
-    <div className="informacion-support mobile-non">
+    <div className="informacion-support mobile-non pc-non">
       <span className="titulo-footer">Support</span>
       <p className="subtitulos-footer">Contact Us</p>
       <p className="subtitulos-footer">FAQ</p>
     </div>
-    <div className="informacion-legal mobile-non">
+    <div className="informacion-legal mobile-non tablet-large-non">
       <span className="titulo-footer">Legal</span>
       <p className="subtitulos-footer">Privacy Policy</p>
       <p className="subtitulos-footer">Terms Of Service</p>
