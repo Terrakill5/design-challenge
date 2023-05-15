@@ -58,14 +58,39 @@
   margin: 0 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .mobile-non{
     display:none;
   }
+
+  .tablet{
+    display:none;
+  }
+  
 }
 
-@media (min-width: 601px) {
+@media (min-width: 681px) {
   .mobile{
+    display:none;
+  }
+
+  
+}
+
+@media (min-width: 681px) and (max-width: 1350px) {
+  .tablet{
+  margin-left: 40px;
+  }
+
+  .tablet-non{
+    display:none;
+  }
+
+  
+}
+
+@media (min-width: 1351px) {
+  .tablet{
     display:none;
   }
 
